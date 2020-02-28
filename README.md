@@ -16,13 +16,12 @@ Web application for online reservation of faculty rooms. The user can add a new 
 - Frontend - HTML, CSS, Javascript
 - Backend - Node.js with Express
 - Test - mocha.js, chai.js
-- [body-parser] (https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
 
 
 ## Libraries used
 
 - [Express](https://expressjs.com) - web framework for Node.js
-- [body-parser] (https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
+- [body-parser](https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
 
 
 ## Testing
