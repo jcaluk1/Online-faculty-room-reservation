@@ -1,0 +1,162 @@
+
+.meni {
+	width: 80%;
+	margin:auto;
+	background-color:#333;
+	text-align:center;
+	margin-top: 50px;
+}
+
+.logo {
+	border:2px solid #333;
+	width: 150px;
+	height: auto;
+	position: relative;
+	top:-50px;
+	margin:0;
+}
+
+.meni ul {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	top:-30px;
+}
+
+.meni li{
+	display: inline;
+	margin:3.8% ;
+}
+
+.meni a {
+	text-decoration: none;
+	display: inline;
+	color: #fff;
+}
+/* Glavni dio */
+
+.sadrzaj {
+	width: 80%;
+	margin:auto;
+	margin-top:1em;
+	padding: 1em 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.wrap {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.polje {  
+    margin-bottom:2%;
+    width: 80%;
+    text-align: left;
+}
+
+.polje label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: inline-block;
+    width:150px;
+    
+}
+.polje input, select {
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.polje2 {
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: left;
+}
+
+h3 {
+
+    text-align:left;
+    margin:0 auto 1% 10%;
+    color:coral;
+}
+
+table {
+   
+   margin: auto;
+   width: 80%;
+   border-spacing:5px;
+   table-layout: fixed; 
+}
+
+table th,td {
+    border: 1px solid rgb(195, 166, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+
+}
+
+table td {
+    height: 20px;
+    color: black;
+    font-size: 14px;
+    background: linear-gradient(#fff 75%, #28e702 25%);
+    vertical-align: top;
+}
+
+.zauzeto {
+    background: linear-gradient(#fff 75%, #e70202 25%);
+}
+
+.zauzetoVanredno {
+    background: linear-gradient(#fff 75%,#fd0745 );
+}
+
+.izbaci {
+    visibility: hidden;
+}
+
+.dugme {    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 6px;
+    cursor: pointer; 
+}
+
+#desni {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.flexi {
+    width: 80%;
+    margin:auto;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+	.meni li{
+		display: block;
+		margin: 0.5em;
+    }
+
+    table tr:not(:nth-child(4n+1)) {
+        display:none;}
+    
+    tr { display: block; float: left;}
+    th, td { display: block; align-self: center;         width:100px; } 
+
+}
+
+
+
+

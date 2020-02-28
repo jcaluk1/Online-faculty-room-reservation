@@ -1,0 +1,114 @@
+
+.meni {
+	width: 80%;
+	margin:auto;
+	background-color:#333;
+	text-align:center;
+	margin-top: 50px;
+}
+
+.logo {
+	border:2px solid #333;
+	width: 150px;
+	height: auto;
+	position: relative;
+	top:-50px;
+	margin:0;
+}
+
+.meni ul {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	top:-30px;
+}
+
+.meni li{
+	display: inline;
+	margin:3.8% ;
+}
+
+.meni a {
+	text-decoration: none;
+	display: inline;
+	color: #fff;
+}
+
+.sadrzaj {
+	width: 80%;
+	text-align: center;
+	margin:auto;
+	margin-top:1em;
+	padding: 1em 0;
+	background-color: #333;
+}
+
+.tabelaSala {
+	margin: auto;
+	width: 80%;
+	border-collapse: collapse;	
+}
+
+.sadrzaj th, td {
+	border: 1px solid black;
+}
+
+.headerRedni {
+	text-align: center;
+	background-color:#decea6;
+}
+
+#prva_celija {
+	visibility: hidden;
+} 
+
+.headerSprat{
+	text-align: center;
+	background-color:#ccc7ba;
+
+}
+
+.sala{
+	text-align: center;
+	background-color: #fff;
+	padding:1px 0;
+	width: 16%;
+}
+
+.slobodnaSala {
+	background-color:green;
+}
+
+.zauzetaSala {
+	background-color:red;
+}
+
+.kancelarija {
+	background-color: gray;
+	
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	
+	.headerSprat {
+		display:none;
+	}
+	.headerRedni {
+		display:none;
+	}
+
+	.meni li{
+		display: block;
+		margin: 0.5em;
+	}
+  }
+
+
+
+

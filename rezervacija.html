@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rezervacija</title>
+    <link rel="stylesheet" type="text/css" href="rezervacija.css">
+</head>
+
+<body>
+    <div class="meni">
+        <img class="logo" src="logo2.png" alt="Logo">
+        <ul>
+            <li><a href="pocetna.html">Početna</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="unos.html">Unos</a></li>
+            <li><a href="rezervacija.html">Rezervacije</a></li>
+            <li><a href="#">Osobe</a></li>
+        </ul>
+    </div>
+    <div class="sadrzaj">
+        <form>
+            <div class="wrap">
+                <div class="polje">
+                    <label for="sala">Izaberi salu: </label>
+                    <select id="sala" name="sale">
+                        <option value="0-01">0-01</option>
+                        <option value="0-02">0-02</option>
+                        <option value="0-03">0-03</option>
+                        <option value="VA1">VA1</option>
+                    </select>
+                </div>
+                <div class="polje">
+                    <label for="pocetak">Početak</label>
+                    <input type="time" id="pocetak" name="pocetak">
+                </div>
+
+                <div class="polje">
+                    <label for="od">Kraj</label>
+                    <input type="time" id="kraj" name="kraj">
+                </div>
+
+                <div class="polje2">
+                    <label for="check">Rezervacija/periodična:</label>
+                    <input type="checkbox" id='check' name="periodicna">
+                </div>
+            </div>
+        </form>
+        <br>
+        <div id="kalendar">
+            <h3 id='imeMjeseca'></h3>
+
+            <table>
+                <tr>
+                    <th>PON</th>
+                    <th>UTO</th>
+                    <th>SRI</th>
+                    <th>CET</th>
+                    <th>PET</th>
+                    <th>SUB</th>
+                    <th>NED</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="flexi">
+            <button id="lijevi" class="dugme">Prethodni</button>
+            <button id="desni" class="dugme">Sljedeci</button>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+</script>
+<script src="kalendar.js"></script>
+<script src="pozivi.js"></script>
+<script src="rezervacija.js"></script>
+
+</html>
